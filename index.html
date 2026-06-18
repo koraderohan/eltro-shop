@@ -531,9 +531,22 @@
       animation: floatIn 0.45s ease both;
     }
 
-    .whatsapp-btn {
+   .whatsapp-btn {
+  position: fixed;
+  left: 18px;
+  bottom: 20px;
+  z-index: 850;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: #ffffff;
+  box-shadow: var(--shadow);
   font-weight: 900;
   font-size: 15px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
     .scroll-top {
